@@ -1,0 +1,30 @@
+div {
+  text-align: center;
+  padding: 10px;
+  width: 80px;
+  height: 80px;
+  background: red;
+  border-radius: 1em;
+}
+
+#one {
+  position: relative;
+  left: 200px;
+  top: 500px;
+}
+
+#two {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+}
+
+#three {
+  position: fixed;
+  right: 50%;
+  top: 0;
+}
+
+#four {
+  float: right;
+}
